@@ -28,6 +28,7 @@ module MyCart
       g.jbuilder = false
       g.test_framework = false
       g.helper = false
+      g.skip_routes = true
     end
   end
 end
